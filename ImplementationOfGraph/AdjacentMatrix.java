@@ -22,5 +22,16 @@ public class AdjacentMatrix {
             System.out.println();
         }
         sc.close();
+        
+    }
+    public static boolean hasEdge(int[][] arr,int s,int v) {
+        if(arr[s][v]==1){
+            return true;
+        }
+        return false;
+    }
+    public static void removeEdge(int[][] arr,int s,int v) {
+        arr[s][v]=0;
+        System.out.println("Edge is removed");
     }
 }
