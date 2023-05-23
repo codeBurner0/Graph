@@ -1,3 +1,4 @@
+package ImplementationOfGraph;
 import java.util.Scanner;
 
 public class AdjacentMatrix {
