@@ -19,6 +19,7 @@ public class AdjacentList {
             addEdge(al,si,ei);
         }
         printList(al);
+        sc.close();
     }
 
     private static void printList(ArrayList<ArrayList<Integer>> al) {
